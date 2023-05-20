@@ -44,7 +44,6 @@ def spr(word, word_guess, word_2):
         answer = str(input("Czy chcesz odgadnąć hasło [T/N]: ")).upper()
         if answer == "T":
             word1 = input('Podaj hasło: ').upper()
-
             if word1 == word_2:
                 print("Wspaniale odgadłeś haslo, ")
                 print("".join(word))
